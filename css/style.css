@@ -6,7 +6,7 @@
  */
 
 /*!
-THEME: Constra - Construction Html5 Template
+THEME: PC Constructions
 VERSION: 1.0.0
 AUTHOR: Themefisher
 
@@ -409,7 +409,7 @@ blockquote:before {
   font-family: "Font Awesome 5 Free";
   position: absolute;
   font-size: 28px;
-  color: #E5E5E5;
+  color: #e5e5e5;
   top: 5px;
   left: 5px;
   font-weight: 700;
@@ -491,13 +491,14 @@ ul.list-check li:before {
   background: #f5f5f5 url(../images/crossword.png);
 }
 
-a[href^=tel] {
+a[href^="tel"] {
   color: inherit;
   text-decoration: none;
 }
 
 /* Button */
-.btn:active, .btn:focus {
+.btn:active,
+.btn:focus {
   box-shadow: none !important;
 }
 
@@ -515,7 +516,7 @@ a[href^=tel] {
 }
 @media (max-width: 767px) {
   .btn-primary,
-.btn-dark {
+  .btn-dark {
     font-size: 13px;
   }
 }
@@ -539,7 +540,8 @@ a[href^=tel] {
   background: #111;
   color: #fff;
 }
-.btn-primary:hover:active, .btn-primary:hover:focus,
+.btn-primary:hover:active,
+.btn-primary:hover:focus,
 .btn-dark:hover:active,
 .btn-dark:hover:focus,
 .btn-white.btn-primary:hover:active,
@@ -570,7 +572,7 @@ a[href^=tel] {
   background: #f5f5f5 url(../images/crossword.png);
 }
 
-a[href^=tel] {
+a[href^="tel"] {
   color: inherit;
   text-decoration: none;
 }
@@ -937,7 +939,7 @@ ul.navbar-nav > li > a i {
     color: #fff;
   }
   .header-two ul.navbar-nav > li.active > a i,
-.header-two ul.navbar-nav > li > a.active i {
+  .header-two ul.navbar-nav > li > a.active i {
     color: #ffb600;
   }
 }
@@ -1371,7 +1373,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .slick-dots li button::before {
   font-size: 12px;
 }
-.slick-dots li button:hover:before, .slick-dots .slick-dots li button:focus:before,
+.slick-dots li button:hover:before,
+.slick-dots .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
   opacity: 1;
   color: #ffb600;
@@ -1946,13 +1949,24 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   transform: perspective(1px) translate3d(0, 15px, 0);
   transition: all 400ms;
 }
-.shuffle-item .project-img-container .project-item-info-content .project-item-title {
+.shuffle-item
+  .project-img-container
+  .project-item-info-content
+  .project-item-title {
   font-size: 20px;
 }
-.shuffle-item .project-img-container .project-item-info-content .project-item-title a {
+.shuffle-item
+  .project-img-container
+  .project-item-info-content
+  .project-item-title
+  a {
   color: #fff;
 }
-.shuffle-item .project-img-container .project-item-info-content .project-item-title a:hover {
+.shuffle-item
+  .project-img-container
+  .project-item-info-content
+  .project-item-title
+  a:hover {
   color: #ffb600;
 }
 .shuffle-item .project-img-container .project-item-info-content .project-cat {
@@ -2087,10 +2101,10 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   color: #fff;
   transition: 0.3s;
 }
-.accordion-group .card-header .btn[aria-expanded=true] {
+.accordion-group .card-header .btn[aria-expanded="true"] {
   color: #ffb600;
 }
-.accordion-group .card-header .btn[aria-expanded=true]::before {
+.accordion-group .card-header .btn[aria-expanded="true"]::before {
   content: "\f106";
   background-color: #ffb600;
 }
@@ -3055,7 +3069,7 @@ label {
 .author-info h3 span {
   font-size: 12px;
   color: #999;
-  border-left: 1px solid #AFAFAF;
+  border-left: 1px solid #afafaf;
   padding-left: 10px;
   margin-left: 10px;
   font-weight: 500;
@@ -3272,7 +3286,8 @@ label {
   transition: 400ms;
   display: block;
 }
-.sidebar ul.service-menu li.active a, .sidebar ul.service-menu li:hover a {
+.sidebar ul.service-menu li.active a,
+.sidebar ul.service-menu li:hover a {
   background: #ffb600;
   color: #fff;
   cursor: pointer;
